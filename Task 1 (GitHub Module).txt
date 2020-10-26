@@ -1,0 +1,35 @@
+Ans1. git commit -m "my message"
+Ans2. create a folder and use git init.
+	*create a directory to contain the project.
+	*Go into the new dirctory.
+	*Type git init.
+	*write some code.
+	*Type git add to add the file.
+	*Type git commit.
+Ans3.  By using command git push --delete remoteBranchName
+Ans4.  rebase is an alterative to merge,
+       git rebase branch-B
+Ans5.  using the "git add" or "git add -all"command to add the file in staging area.
+Ans6.  using the "git add -A" command to add the unstagged file in staging area.
+Ans7.  using the "git add file" command to add the particular file.
+       git commit[some file]
+Ans8.  git status 
+       The git status command displays the state of the working directory and the staging area. 
+       It lets you see which changes have been staged, which haven't, 
+       and which files aren't being tracked by Git. Status output does not show you any
+       information regarding the committed project history.
+Ans9.  git branch "branchname"
+       git branch 
+Ans10. git checkout
+       git checkout "branchname"
+Ans11. git config --global username ["xyr" "dafd"]
+       The git config command is a convenience function that is used to set Git configuration values on a global or local project level. 
+       These configuration levels correspond to . gitconfig text files. Executing git config will modify a configuration text file.
+Ans12. git config username ["xyr" "dafd"]
+       If we want to check our configuration settings, we can use the git config --list command to list all the settings
+       Git can find at that point: $ git config --list user.name=John Doe user.
+Ans13. git merge [branch]
+Ans14. git remote add "url"
+Ans15. git remote -v
+Ans16. git fetch orgin
+Ans17. git pull
