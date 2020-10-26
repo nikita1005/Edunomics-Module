@@ -1,0 +1,46 @@
+	Task-2 JavaScript
+1.Object are declared same as variable
+	var person = "nikita mahdole"
+2.Array is declared as
+	var arr = ["apple", "orange" , "banana"]
+3.JavaScript can create, read, and delete cookies with the document.cookie property.
+  With JavaScript, a cookie can be created like this: document.cookie = "username=John Doe"; we can also add an expiry date (in UTC time)
+  We can use create cookie as:
+	documents.cookie = "username = nikita mahdole";
+	we can add expiry date to it by adding expires attribute at the end
+	documents.cookie = "username = nikita mahdole; exprires = Sun, 1 Nov 2020 12:00 IST";
+5.SessionStorage is similar to localStorage ; the difference is that while data in localStorage doesn't expire,
+  data in sessionStorage is cleared when the page session ends.
+  A page session lasts as long as the browser is open, and survives over page reloads and restores.
+ 
+  Clearly, if the data you are storing needs to be available on an ongoing basis then localStorage is preferable to sessionStorage - 
+  although you should note both can be cleared by the user so you should not rely on the continuing existence of data in either case.
+
+  localStorage and sessionStorage are perfect for persisting non-sensitive data needed within client scripts between pages 
+  (for example: preferences, scores in games). The data stored in localStorage and sessionStorage can easily be read or changed from within the 
+  client/browser so should not be relied upon for storage of sensitive or security-related data within applications.
+
+7.call() Method: It calls the method, taking the owner object as argument. The keyword this refers to the ‘owner’ of the function or the object it belongs to.
+                 We can call a method which can be used on different objects.
+                 Syntax:object.objectMethod.call( objectInstance, arguments )
+                 Parameters: It accepts two parameters as mentioned above and described below:
+                 objectInstance: It holds the instance of an object.
+                 arguments: The call() method takes the comma separated arguments.
+
+  apply() Method: The apply() method is used to write methods, which can be used on different objects.
+                  It is different from the function call() because it takes arguments as an array.
+                  Syntax:object.objectMethod.call( objectInstance, arguments )
+                  Parameters: It accepts two parameters as mentioned above and described below:
+                  objectInstance: It holds the instance of an object.
+                  arrayOfArguments: The apply() method takes the array of arguments.
+ Difference between call() and apply() method: The only difference is call() method takes the arguments separated by comma 
+while apply() method takes the array of arguments.
+
+8. Just by reclaring the array.
+	var Arr = [1,3,4,5,6];
+	Arr = []
+
+13. A function without the name is anonymous function.
+14. The Java String charAt(int index) method returns the character at the specified index in a string.
+    The index value that we pass in this method should be between 0 and (length of string-1).
+    For example: s. charAt(0) would return the first character of the string represented by instance s.
